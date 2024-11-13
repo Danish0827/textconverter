@@ -1,7 +1,7 @@
 import { useState } from "react"
 
 export const Textarea = ({ heading }) => {
-    const [text, setText] = useState('danish')
+    const [text, setText] = useState('Danish')
 
     const handleUpClick = () => {
         let newText = text.toUpperCase();
