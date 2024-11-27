@@ -7,7 +7,6 @@ const Header = ({ mode, toggleMode }) => {
     const handleToggle = () => {
         setIsChecked(!isChecked);
     };
-
     console.log(isChecked);
     return (
         <>
